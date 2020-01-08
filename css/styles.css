@@ -1,0 +1,146 @@
+body{
+  font-family: "Montserrat";
+}
+
+#title{
+  color: #fff;
+  background-color: #ff4c68;
+  padding-bottom: 100px;
+}
+h1
+{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 3% 15%;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-link{
+  font-family: "Montserrat-light";
+  padding-right: 18px;
+}
+.navbar{
+  padding: 0px 0px 50px;
+}
+.download-button{
+  margin: 5% 2% 0% 2%;
+}
+
+.title-img{
+  width: 50%;
+  position:absolute;
+  transform: rotate(25deg);
+}
+#features{
+  margin: 100px;
+  width: 80%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.features-heading{
+  font-family: "Montserrat-Black";
+  text-align: center;
+}
+.features-para{
+  color: #8f8f8f;
+  text-align: center;
+  padding: 30px;
+}
+.features-box{
+  text-align: center;
+}
+.icon{
+  color: #ef8172;
+  margin-botom: 1rem;
+}
+.icon:hover{
+  color: #dc3545
+}
+h2{
+  font-family: "Montserrat-Bold";
+  line-height: 1.5;
+}
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 7%;
+}
+.press-img{
+  width: 15%;
+  padding: 10px;
+}
+.carousel-item{
+
+  padding: 7% 15% 7% 15%;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2% 3%;
+}
+.feature{
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+
+}
+.cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+h3{
+  font-family: "Montserrat-Bold";
+
+}
+.cta-h3{
+  font-size: 4rem;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+.footer-cont{
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.footer-icon{
+  padding: 1%;
+  padding-bottom: 2%;
+}
+.footer-p{
+  font-family: "Montserrat";
+  font-weight: 200;
+  color : gray;
+}
+@media (max-width:1028px)  {
+
+  .title-img{
+    width: 50%;
+    position:static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+}
